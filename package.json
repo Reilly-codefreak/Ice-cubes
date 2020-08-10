@@ -1,0 +1,19 @@
+{
+  "name": "ice-cubes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reilly-codefreak/Ice-cubes.git"
+  },
+  "author": "REILLY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Reilly-codefreak/Ice-cubes/issues"
+  },
+  "homepage": "https://github.com/Reilly-codefreak/Ice-cubes#readme"
+}
