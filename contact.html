@@ -6,21 +6,77 @@
     <title>ICE AND CUBES</title>
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <!--pre js-->
+    <script src="https://use.fontawesome.com/913d3be366.js"></script>
 </head>
 <body>
     
-    <header>
-        <div class="menu"></div>
-        <div class="site-identity"></div>
+    <header class="sticky">
+        <div class="menu">
+            <span id="menu-trigger">Menu</span>
+            <ul id="hidden-menu">
+                <li id="home">Home</li>
+                <li id="service">Services</li>
+                <li id="product">Products</li>
+                <li id="contact">Contact Us</li>
+            </ul>
+        </div>
+        <div class="site-identity">
+            <h2>ice and cubes solutions</h2>
+        </div>
     </header>
 
     <div class="content">
-        
+        <div class="contact">
+            <div class="form">
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Enter your email address">
+                    <br>
+                    <textarea name="info" id="info" cols="30" rows="10" placeholder="Enter your feedback here"></textarea>
+                    <br>
+                    <button type="button">Send feedback</button>
+                </form>
+            </div>
+            <div class="details">
+                <span>nacico co-op plaza, 7<sup>th</sup> floor, suite 700</span>
+                <br>
+                <span>Landhies Rd</span>
+                <span>p.o.box 101663 00101, Nairobi</span>
+                <!--phone details-->
+                <div class="email">
+                    <span><i class="fa fa-envelope"></i></span>
+                    <ul>
+                        <li>info@iceandcubessolution.co.ke</li>
+                        <li>sales@iceandcubessolution.co.ke</li>
+                        <li>iceandcubesltd@gmail.com</li>
+                    </ul>
+                </div>
+
+                <div class="phone">
+                    <span><i class="fa fa-phone"></i></span>
+                    <ul>
+                        <li>+254 733835933</li>
+                        <li>+254 721671564</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.811581729233!2d36.83522751427469!3d-1.2871482359889832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f113a98a1da7f%3A0x28df1ed2593a90e0!2sNACICO%20PLAZA!5e0!3m2!1sen!2ske!4v1574425814583!5m2!1sen!2ske" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
     </div>
 
     <footer>
-        <div class="icons"></div>
-        <div class="copyright"></div>
+        <div class="icons">
+            <span class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+            <span class="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></span>
+            <span class="insta"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+        </div>
+        <div class="copyright">
+            <p>All <sup>&copy;</sup>copyrights reserved by Reilly Oduory</p>
+        </div>
     </footer>
 
     <script src="./js/index.js"></script>
